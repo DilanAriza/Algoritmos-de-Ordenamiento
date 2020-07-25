@@ -1,7 +1,5 @@
 # 1. Comparaciones de elementos subyacentes
 # 2. Repetir hasta tener una pasada completa sin ningun Suap
-# 3. (opcional) Contar cuantos bucles o recorridos utilizamos
-cambios = 0
 
 def bubbleSort(array, ):
     n = len(array)
@@ -31,9 +29,12 @@ def bubbleSort(array, ):
 
 
 def main():
+    #Creamos el array para pasar los datos
     array = [190, 200, 1, 2, 5, 55, 1000, 6, -80, 55]
 
+    #Llamamos al metodo para organizar los datos
     bubbleSort(array)
+    # Imprimimos los datos ordenados por pantalla 
     for i in range(len(array)):
         print("%d"%array[i]),
 
